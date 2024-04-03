@@ -16,17 +16,18 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script><!-- ajout de defer -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
+	<!-- ajout de defer -->
+	<script src="./assets/maugallery.js" defer></script><!-- ajout de defer -->
+	<script src="./assets/scripts.js" defer></script><!-- ajout de defer -->
 </head>
 
 <body>
 	<header><!-- ajout de header -->
 		<nav class="top-header"><!-- ajout de nav -->
-			<h1 class="name">Nina Carducci</h1><!-- modif h3 =>h1 -->
+			<h2 class="name">Nina Carducci</h2>
 			<div class="nav">
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -84,11 +85,11 @@
 			<img src="./assets/images/nina.png" alt="portrait de nina Carducci"><!-- ajout de alt -->
 		</div>
 		<div id="about-me">
-			<h2 class="about-me__title ">A propos de moi</h2><!-- modif h3=>h2 -->
+			<h3 class="about-me__title  ">A propos de moi</h3>
 			<h3 class="about-me__introduction h6">Devenir photographe était pour moi une évidence. Comme si j’y étais
 				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-				immortels, voilà ce qui me fait vibrer.</h3><!-- modif h6=>h4 -->
-			
+				immortels, voilà ce qui me fait vibrer.</h3><!-- h6=>h3 -->
+
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
 				le
 				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
@@ -132,7 +133,7 @@
 						fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude
 						n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la
 						vérité.
-					</p><!-- modif -->
+					</p><!-- modif h1=>p -->
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
@@ -179,7 +180,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="quote"><!-- modif -->
+	<section class="quote"><!-- modif h1=>p ligne 186 -->
 		<figure>
 			<blockquote>
 				<p class="quote__text h1">De manière inconsciente, je crois, je guette un regard, une expression, des
@@ -196,7 +197,7 @@
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
 					<label for="nom">Nom</label>
-					<input type="text" name="nom" id="nom" >
+					<input type="text" name="nom" id="nom">
 					<label for="email">Email</label>
 					<input type="email" name="email" id="email">
 					<label for="message">Message</label>
