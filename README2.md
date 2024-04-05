@@ -26,4 +26,11 @@ Assurez-vous de placer la balise <meta> avec la directive CSP dans la section <h
 [Réduisez les ressources CSS inutilisées Économies potentielles](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules?utm_source=lighthouse&utm_medium=devtools&hl=fr)
 
 
+[Properly size images Potential savings of 138 KiB ](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images?utm_source=lighthouse&utm_medium=devtools&hl=fr)
+
+[Activez la compression de texte Économies potentielles de 355 Kio](https://developer.chrome.com/docs/lighthouse/performance/uses-text-compression?utm_source=lighthouse&utm_medium=devtools&hl=fr)
+
+
+
+
 
