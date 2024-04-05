@@ -16,8 +16,9 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<meta http-equiv="Content-Security-Policy" content="script-src 'none'">
+	<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://code.jquery.com;">
     <!-- Ajoutez la directive Content Security Policy juste après la déclaration de l'encodage -->
+	<!-- Cette configuration permet le chargement de scripts à partir de votre propre domaine tout en bloquant les scripts provenant d'autres sources externes. Assurez-vous de tester votre site après avoir effectué ce changement pour vous assurer que toutes les fonctionnalités fonctionnent comme prévu.-->
 	<script src="./assets/bootstrap/bootstrap.bundle.js" defer></script><!-- ajout de defer -->
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
