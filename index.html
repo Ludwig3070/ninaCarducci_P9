@@ -25,10 +25,80 @@
 	<!-- ajout de defer -->
 	<script src="./assets/maugallery.js" defer></script><!-- ajout de defer -->
 	<script src="./assets/scripts.js" defer></script><!-- ajout de defer -->
+	<!--Ces balises <meta> que vous avez fournies utilisent les propriétés de Schema.org pour décrire les informations sur Nina Carducci. Voici ce que chaque balise signifie :
+
+	<meta itemprop="name" content="Nina Carducci">: Indique que le nom de la personne est "Nina Carducci".
+	<meta itemprop="address" content="68 avenue Alsace-Lorraine, 33200 Bordeaux.">: Définit l'adresse de Nina Carducci comme "68 avenue Alsace-Lorraine, 33200 Bordeaux.".
+	<meta itemprop="telephone" content="05 56 67 78 89">: Spécifie le numéro de téléphone de Nina Carducci comme "05 56 67 78 89".
+	<meta itemprop="description" content="Je réponds au téléphone du lundi au vendredi de 10h à 19h.">: Fournit une description qui indique que Nina Carducci répond au téléphone du lundi au vendredi de 	10h à 19h.
+	Ces balises aident les moteurs de recherche et d'autres applications à mieux comprendre et à interpréter les informations sur Nina Carducci sur votre page web.-->
+
+	<!-- 
+	Balises Meta pour le référencement : Les balises meta sont utilisées pour fournir des informations supplémentaires sur le contenu de la page aux moteurs de recherche et aux navigateurs. Dans cet 	exemple, les balises meta sont utilisées principalement pour définir la langue de la page (<html lang="fr">) et fournir une description (<meta name="description" content="...">) qui sera souvent 	affichée dans les résultats de recherche comme un extrait de la page. Ces balises aident les moteurs de recherche à comprendre le contenu de la page et à l'indexer correctement. -->
+
+	<meta itemprop="name" content="Nina Carducci">
+    <meta itemprop="address" content="68 avenue Alsace-Lorraine, 33200 Bordeaux.">
+    <meta itemprop="telephone" content="05 56 67 78 89">
+    <meta itemprop="description" content="Je réponds au téléphone du lundi au vendredi de 10h à 19h.">
+
+	<!-- Pour ajouter des balises meta pour les réseaux sociaux, vous pouvez utiliser les balises Open Graph et Twitter. Ces balises permettent aux plateformes telles que Facebook, Twitter et LinkedIn de mieux comprendre le contenu de votre page lorsqu'il est partagé. -->
+
+	<!-- Balises Open Graph -->
+	<meta property="og:title" content="Nina Carducci">
+	<meta property="og:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les 	rendre immortels, voilà ce qui me fait vibrer.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://ludwig3070.github.io/ninaCarducci_P9/">
+	<meta property="og:image" content="https://ludwig3070.github.io/ninaCarducci_P9/assets/images/nina_1_11zon.webp">
+	<meta property="og:image:alt" content="photo de nina Carducci">
+
+	<!-- Balises Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci">
+	<meta name="twitter:description" content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les 	rendre immortels, voilà ce qui me fait vibrer.">
+	<meta name="twitter:image" content="https://ludwig3070.github.io/ninaCarducci_P9/assets/images/nina_1_11zon.webp">
+
+
+
+
+	<!-- Balises Schema.org : Les balises Schema.org, également connues sous le nom de données structurées, sont utilisées pour décrire de manière détaillée et structurée le contenu de la pageweb. Dans cet exemple, les balises Schema.org sont utilisées pour décrire l'entité "Photographer" (photographe) ainsi que ses services. Ces données structurées aident les moteurs derecherche à comprendre plus précisément le contenu de la page et peuvent être utilisées pour afficher des résultats enrichis dans les pages de résultats de recherche, comme des extraitsenrichis ou des cartes de connaissance. En d'autres termes, les balises Schema.org fournissent une sémantique plus précise sur le contenu de la page, tandis que les balises meta sontprincipalement utilisées pour des informations générales sur la page. -->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Photographer",
+		  "name": "Nina Carducci",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "description": "Je réponds au téléphone du lundi au vendredi de 10h à 19h.",
+		  "serviceArea": {
+			"@type": "GeoShape",
+			"polygon": "48.85341, 2.3488 48.85661, 2.35222 48.85708, 2.34517 48.85296, 2.34209"
+		  },
+		  "serviceType": "Photographer",
+		  "offers": {
+			"@type": "Offer",
+			"itemOffered": {
+			  "@type": "Photograph",
+			  "name": "Shooting photo",
+			  "description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos."
+			},
+			"price": "350 €/demi journée",
+			"eligibleRegion": {
+			  "@type": "AdministrativeArea",
+			  "name": "Île-de-France"
+			}
+		  }
+		}
+		</script>	
+
 </head>
 
 <body>
-	<header><!-- ajout de header -->
+	<header ><!-- ajout de header -->
 		<nav class="top-header"><!-- ajout de nav -->
 			<h1 class="name">Nina Carducci</h1>
 			<div class="nav">
@@ -44,8 +114,6 @@
 				</ul>
 			</div>
 		</nav>
-
-
 		<div id="header">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -104,7 +172,7 @@
 					approche, ma
 					technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de
 					la
-					tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+					tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>					
 			</div>
 		</section>
 		<section id="gallery">
