@@ -36,16 +36,23 @@ Le message d'erreur indique que le navigateur reconnaît l'identifiant (ID) ou l
 
 Dans votre cas, vous pouvez simplement ajouter l'attribut autocomplete à votre champ de formulaire, par exemple :
 
-html
-Copy code
 <input type="email" name="email" id="email" autocomplete="email">
+
 L'attribut autocomplete peut prendre différentes valeurs, telles que "email", "name", "address", "postal-code", etc., en fonction du type de données attendues dans le champ. Dans cet exemple, j'ai utilisé "email" comme valeur pour correspondre au type de champ (champ d'adresse e-mail). Cela permettra au navigateur de mieux comprendre quel type de données est attendu dans ce champ et d'autocompléter en conséquence.
 
 En ajoutant cet attribut à votre champ de formulaire, vous devriez résoudre le message d'erreur dans la console de Firefox.
 
 [minifier JS](https://www.toptal.com/developers/javascript-minifier)
 
+[inserer le balisage des donnees structureesou enrichies](https://www.youtube.com/watch?v=g9h6bGH0xoE&t=242s)
 
+[outil d'aide au balisage de google](https://www.google.com/webmasters/markup-helper/u/0/)
 
+[documentation sur les donnees structurees](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data?hl=fr)
 
+[outil pour les donnees structurees](https://support.google.com/webmasters/answer/7445569?hl=fr)
+
+[blog interessant](https://fr.semrush.com/blog/comment-obtenir-des-rich-snippets/)
+
+[schema.org validate super interessant](https://schema.org/)
 
