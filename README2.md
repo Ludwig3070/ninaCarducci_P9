@@ -56,3 +56,8 @@ En ajoutant cet attribut à votre champ de formulaire, vous devriez résoudre le
 
 [schema.org validate super interessant](https://schema.org/)
 
+[donnees structurees](https://www.youtube.com/watch?v=7R_OVSwNdKI)
+
+[meta reseau sociaux](https://www.youtube.com/watch?v=RvPYpgdUzm4)
+
+[meta twitter](https://www.tweeteraser.com/fr/resources/twitter-card-validator-building-link-previews-on-x/)
